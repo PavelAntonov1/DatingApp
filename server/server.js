@@ -46,7 +46,8 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin:
+    "https://66b9426aeded4fce34b3380c--silver-marigold-0f17ff.netlify.app/homepage",
   optionSuccessStatus: 200,
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"],
@@ -798,7 +799,10 @@ app.post("/api/login", async (req, res) => {
         sameSite: false,
       });
 
-      res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+      res.setHeader(
+        "Access-Control-Allow-Origin",
+        "https://66b9426aeded4fce34b3380c--silver-marigold-0f17ff.netlify.app/homepage"
+      );
       res.setHeader("Access-Control-Allow-Credentials", true);
 
       res.send({
