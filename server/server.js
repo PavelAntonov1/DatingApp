@@ -801,7 +801,7 @@ app.post("/api/login", async (req, res) => {
 
       res.setHeader(
         "Access-Control-Allow-Origin",
-        "https://66b9426aeded4fce34b3380c--silver-marigold-0f17ff.netlify.app/homepage"
+        "https://66b9426aeded4fce34b3380c--silver-marigold-0f17ff.netlify.app"
       );
       res.setHeader("Access-Control-Allow-Credentials", true);
 
