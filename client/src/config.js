@@ -1,3 +1,3 @@
-const serverName = "https://datingapp-rtg1.onrender.com:3001";
+const serverName = "https://datingapp-rtg1.onrender.com";
 
 export { serverName };
