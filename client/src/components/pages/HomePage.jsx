@@ -51,7 +51,7 @@ const HomePage = (props) => {
             <LoginForm />
 
             <div className="d-flex flex-row mt-1 justify-content-around">
-              <span className="text-muted">Нет аккаунта?</span>
+              <span className="text-muted">No account?</span>
               <a
                 className="text-muted"
                 onClick={registrationShowHandler}
