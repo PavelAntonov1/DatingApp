@@ -47,7 +47,7 @@ const app = express();
 
 const corsOptions = {
   origin:
-    "https://66b9426aeded4fce34b3380c--silver-marigold-0f17ff.netlify.app/homepage",
+    "https://66b9426aeded4fce34b3380c--silver-marigold-0f17ff.netlify.app",
   optionSuccessStatus: 200,
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"],
